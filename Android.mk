@@ -14,7 +14,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_C_INCLUDES += \
         $(LOCAL_PATH)/include \
-        $(BDROID_DIR)/hci/include
+        $(BDROID_DIR)/hci/include \
         hardware/marvell/wlan/mrvl/libMarvellWireless
 
 LOCAL_SHARED_LIBRARIES := \
